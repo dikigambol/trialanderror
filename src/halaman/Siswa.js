@@ -97,7 +97,7 @@ function Siswa() {
     return (
         <div style={{ padding: '5%' }} >
 
-            <div id="tulisan" style={{marginBottom: '30px'}}>
+            {/* <div id="tulisan" style={{marginBottom: '30px'}}>
                 <img src="/logo.png"></img>
                 <p style={{fontWeight: 'bold', fontSize: '14pt', textAlign: 'center'}}>
                     INSTITUT TEKNOLOGI DAN BISNIS ASIA MALANG
@@ -106,7 +106,7 @@ function Siswa() {
                     Jl. Soekarno-Hatta, Rembuksari 1A Malang Telp.(0341) 478877 Fax.(0341) 4345225
                 </p>
                 <hr></hr>
-            </div>
+            </div> */}
 
             {/* Modal tambah*/}
             <div className="modal fade" id="tambahMod" tabIndex={-1} role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -207,9 +207,9 @@ function Siswa() {
                         + tambah siswa
                     </button>
 
-                    <button className="btn btn-primary ml-2" onClick={print}>
+                    {/* <button className="btn btn-primary ml-2" onClick={print}>
                         print
-                    </button>
+                    </button> */}
                     <br />
                     <br />
                     {siswaData.length == 0 ? (
