@@ -1,10 +1,10 @@
 import { BrowserRouter as Router } from 'react-router-dom';
-import Siswa from './halaman/Siswa';
+import TestPDF from './halaman/testPDF';
 
 function App() {
   return (
     <Router>
-      <Siswa />
+      <TestPDF />
     </Router>
   );
 }

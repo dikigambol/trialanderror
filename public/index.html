@@ -14,48 +14,47 @@
   <title>React App</title>
 
   <style type="text/css">
-    .tftable {
-      font-size: 12px;
-      color: #333333;
-      width: 100%;
-      border-width: 1px;
-      border-color: #729ea5;
-      border-collapse: collapse;
-    }
-
-    .tftable th {
-      font-size: 12px;
-      background-color: #acc8cc;
-      border-width: 1px;
-      padding: 8px;
-      border-style: solid;
-      border-color: #729ea5;
-      text-align: left;
-    }
-
-    .tftable tr {
-      background-color: #d4e3e5;
-    }
-
-    .tftable td {
-      font-size: 12px;
-      border-width: 1px;
-      padding: 8px;
-      border-style: solid;
-      border-color: #729ea5;
-    }
-
-    .tftable tr:hover {
-      background-color: #ffffff;
-    }
-
-    hr {
-      border: 1px solid rgb(139, 139, 139);
-      width: 55%;
-    }
-
     .times {
-      font-family: "Times New Roman", Times, serif !important;
+      font-family: "Dejavu Serif Condensed Bold", serif !important;
+    }
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .page {
+      width: 210mm;
+      min-height: 297mm;
+      padding: 10mm;
+      margin: 10mm auto;
+      border: 1px #D3D3D3 solid;
+      border-radius: 5px;
+      background: white;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    @media print {
+      .page {
+        /* margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always; */
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
     }
   </style>
 </head>
